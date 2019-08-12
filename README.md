@@ -1,4 +1,19 @@
 # SymfonyTodoApi
+
+## Роуты ##
+
+Пути, с помошью которых можно управлять API:
+
+GET /tasks - Показать все задачи
+
+GET /tasks/1 - Показать первую задачу
+
+POST /tasks - Создать новою задачу (Пример параметров: {title:Test, description:Test, done:0})
+
+PUT /tasks/1 - Обновить задачу 1 (Пример параметров: {title:Test, description:Test, done:1})
+
+DELETE /tasks/1 - Удалить задачу 1
+
 ## Дополнительная информация ##
 
 API был реализован с помощью <code>friendsofsymfony/rest-bundle</code> = меньше запутанного и повторяющегося кода в контроллере.
