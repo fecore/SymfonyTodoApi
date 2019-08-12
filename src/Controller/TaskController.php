@@ -24,6 +24,7 @@ class TaskController extends AbstractFOSRestController
     // Because of route ---> type=rest (auto method discovery)
     // Can't find needed method when too many classes are injected in controller methods
 
+
     public function __construct(ValidatorInterface $validator)
     {
         $this->validator = $validator;
