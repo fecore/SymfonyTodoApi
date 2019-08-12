@@ -14,6 +14,10 @@ fos_rest:
     view_response_listener: 'force'
     formats:
       json: true
+#  exception:
+#    enabled: true
+#    exception_controller: 'App\Controller\ExceptionController::showAction'
+
 #    param_fetcher_listener:  true
 #    allowed_methods_listener:  true
 #    routing_loader: true

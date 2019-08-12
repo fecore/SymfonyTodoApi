@@ -1,6 +1,4 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+# All routes for REST-controller are automatically defined
 tasks:
   type:     rest # Automatic REST-controller recovering
   resource: App\Controller\TaskController
